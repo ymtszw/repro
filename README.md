@@ -15,3 +15,5 @@ This repository is a minimal example of a bug in the ElixirLS.
     lib/repro.ex:4: (module)
     (elixir 1.14.5) lib/kernel/parallel_compiler.ex:340: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/7
 ```
+
+- OR, on initial opening of the file, the compilation may succeed. If so, give some arbitrary change to `lib/repro.ex` and save the file. The error should appear then.
