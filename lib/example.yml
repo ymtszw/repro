@@ -1,0 +1,6 @@
+- key: foo
+  type: string
+  description: "xxx"
+- key: bar
+  type: int
+  description: "yyy"
